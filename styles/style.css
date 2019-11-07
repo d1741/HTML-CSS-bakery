@@ -1,0 +1,114 @@
+body {
+	background-color: #dcc8e0;
+	margin: 40px;
+}
+header {
+	max-width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
+	background: url(../images/hero.jpg) center center no-repeat;
+	color: white;
+}
+
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+article {
+	/* border: 2px solid red; */
+	/* width: 45rem; */
+}
+.titles {
+	text-align: center;
+	width: 100%;
+	font-size: 3rem;
+	letter-spacing: 0.1rem;
+	margin-bottom: 0px;
+}
+
+nav {
+	font-family: 'McLaren', cursive;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	cursor: pointer;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	margin-top: 0;
+	font-size: 1.3rem;
+}
+
+nav a:hover {
+	font-size: 1rem;
+}
+
+.baking-examples {
+	/* border: 2px dotted dodgerblue; */
+	margin: 0 auto;
+	display: inline-block;
+	border-top: 2px solid #b658a6;
+	border-bottom: 2px solid #b658a6;
+}
+img {
+	border: 3px solid #b658a6;
+	border-radius: 0.15rem;
+}
+
+.review-section {
+	text-align: center;
+	max-width: 100%;
+	margin: 75px;
+}
+
+.review-section nav a {
+	color: #b658a6;
+	font-weight: bolder;
+}
+
+blockquote {
+	margin-bottom: 60px;
+}
+
+h1,
+h2,
+cite {
+	font-family: 'Bree Serif', serif;
+	margin-bottom: 5px;
+}
+
+a,
+p,
+label,
+ul {
+	font-family: 'McLaren', cursive;
+	font-size: 1rem;
+	list-style-type: none;
+	text-decoration: none;
+	color: black;
+	line-height: 1.8;
+}
+
+ul li {
+	background-color: purple;
+	width: 50%;
+	text-align: center;
+	margin-left: 25%;
+	padding: 6px;
+}
+
+ul li:hover {
+	color: white;
+}
+
+@media (max-width: 700px) {
+	ul li {
+		background-color: orange;
+		padding: 11px;
+		font-size: 1.2rem;
+	}
+}
