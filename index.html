@@ -46,25 +46,54 @@
 				</section>
 				<section class="baking-examples">
 					<form>
-						<h1>What tutorial would you like to see this week?</h1>
-						<p>
-							Fill out the form below with your suggestions!
-						</p>
-						<label for="username">
-							Username:
-							<input type="text" id="username" />
-						</label>
-						<label for="email">
-							Email (required):
-							<input type="text" id="email" />
-						</label>
-						<label for="terms">
-							Terms and condishes:
-							<input type="checkbox" id="terms" />
-						</label>
-						<label for="submission">
-							<input type="submit" value="Submit" id="submission" />
-						</label>
+						<fieldset>
+							<legend>Sign up for a one-on-one class with me!</legend>
+							<p>
+								Fill out the form below:
+							</p>
+							<label for="username">
+								Username:
+								<input type="text" id="username" />
+							</label>
+							<label for="email">
+								Email (required):
+								<input type="text" id="email" />
+							</label>
+							<label for="date">
+								Requested date:
+								<input type="date" id="date" />
+							</label>
+							<p>What type of class would you like to try?</p>
+							<label>
+								<input type="radio" name="classtype" value="cupcakes" />
+								Cupcakes
+							</label>
+							<label>
+								<input type="radio" name="classtype" value="cookies" />
+								Cookies
+							</label>
+							<label>
+								<input type="radio" name="classtype" value="bread" />
+								Bread
+							</label>
+							<label for="specialization">
+								Will you be celebrating anything special?
+							</label>
+							<select id="specialization">
+								<option selected>- Choose One -</option>
+								<option value="bday">Birthday</option>
+								<option value="bachparty">Bachelor/Bachelorette Party</option>
+								<option value="anniv">Anniversary</option>
+								<option value="grad">Graduation</option>
+							</select>
+							<label for="terms">
+								Terms and condishes:
+								<input type="checkbox" id="terms" />
+							</label>
+							<label for="submission">
+								<input type="submit" value="Submit" id="submission" />
+							</label>
+						</fieldset>
 					</form>
 					<img src="./images/cupcakes.jpg" alt="cupcakes" />
 					<img
